@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Aplikasi Todo List 🔥🔥🔥
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple Todo List application built using React Native, Expo, and Tailwind CSS. It allows users to add, update, delete, and check off tasks. Each task can also have a description.
 
-## Get started
+<div align="center"> 
+   <img src="https://i.ibb.co.com/y6vt9PL/IMG-7515.png" alt="App Screenshot" width="250" style=""> 
+</div>
 
-1. Install dependencies
+## Features
 
+- **Add Task**: Add a new task with a title and description.
+- **Update Task**: Update the title and description of an existing task.
+- **Delete Task**: Remove a task from the list.
+- **Checklist**: Mark tasks as completed or not completed.
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellfarnaz/TodoList.git
+   ```
+2. Change into the project directory:
+   ```bash
+   cd todo-list-app
+   ```
+3. Install the dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+4. Start the Expo project:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Open the Expo Go app on your mobile device.
+2. Scan the QR code displayed in your terminal or browser after running `npx expo start`.
+3. The app will open on your device, and you can start adding, updating, deleting, and checking off tasks.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```plaintext
+.
+├── 📁app
+│   ├── _layout.tsx
+│   ├── 📁components
+│   │   ├── TodoInput.tsx
+│   │   └── TodoItem.tsx
+│   └── index.tsx
+├── 📁assets             # Image and other asset files
+├── 📁node_modules       # npm dependencies
+├── package.json         # npm package configuration
+├── README.md            # Project documentation
+└── app.json             # Expo configuration
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
