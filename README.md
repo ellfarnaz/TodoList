@@ -23,7 +23,7 @@ To get started with this project, follow these steps:
    ```
 2. Change into the project directory:
    ```bash
-   cd todo-list-app
+   cd TodoList
    ```
 3. Install the dependencies:
    ```bash
